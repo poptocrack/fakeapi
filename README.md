@@ -2,6 +2,10 @@
 
 Usage
 
+Add `"fakeapi": "git+ssh://git@github.com:poptocrack/fakeapi.git",` in `package.json`
+
+Install packages with `yarn` or `nmp i`
+
 `import Api from 'fakeapi'`
 
 `const res = await Api.ApiCall()`
