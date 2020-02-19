@@ -14,4 +14,6 @@ Install packages with `yarn` or `nmp i`
 
 It is the returned value (whatever makes sense in your case)
 
-You can use `Api.setMaxWaitTime(<time>)` to make `ApiCall` goes faster. 3000 = 3s max wait time before response.
+You can use `Api.setMaxWaitTime(<time>)` to make `ApiCall` goes faster.
+
+3000 = 3s max wait time before response.
