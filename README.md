@@ -8,10 +8,10 @@ Install packages with `yarn` or `nmp i`
 
 `import Api from 'fakeapi'`
 
-`const res = await Api.ApiCall()`
+`const res = await Api.ApiCall(<response>)`
 
-`ApiCall` is taking 2 args:
+`ApiCall` is taking 1 arg:
 
-The first one is the returned value (whatever makes sense in your case)
+It is the returned value (whatever makes sense in your case)
 
-The second is the maximum time before the `return`
+You can use `Api.setMaxWaitTime(<time>)` to make `ApiCall` goes faster. 3000 = 3s max wait time before response.

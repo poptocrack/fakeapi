@@ -1,5 +1,3 @@
-import fakeapi from './src/fakeapi';
+import fakeapi from './src/fakeapi.js';
 
-const api = new fakeapi()
-
-export default api
+export default new fakeapi()
