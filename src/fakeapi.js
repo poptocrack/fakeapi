@@ -1,3 +1,5 @@
+import SUGGESTED_LIST from './suggestedList'
+
 class Api {
   constructor() {
     this.maxWaitTime = 1000
@@ -22,6 +24,10 @@ class Api {
     } else {
       return (response)
     }
+  }
+
+  getSuggestedPlates = () => {
+    return this.ApiCall(SUGGESTED_LIST)
   }
 }
 
